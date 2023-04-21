@@ -11,11 +11,6 @@
 {/if}
 
 
-
-{* {var_dump | $flagged_products} *}
-
-
-
 {if $products_all}
 
 
