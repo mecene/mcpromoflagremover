@@ -20,34 +20,32 @@
 
 
 
-<div 
+  <div 
 
-class="btn btn-default " 
+  class="btn btn-default " 
 
-data-toggle="pstooltip" 
+  data-toggle="pstooltip" 
 
-data-placement="bottom" 
+  data-placement="bottom" 
 
-data-original-title={l s='Remove "on sale" labels from products and products list' mod='mcpromoflagremover'}
+  data-original-title={l s='Remove "on sale" labels from products and products list' mod='mcpromoflagremover'}
 
->
+  >
 
-  <a href="{$button_url}" 
+    <a href="{$button_url}" 
 
-      title="supprimer" >
+        title="supprimer" >
 
-      {$button_label}
+        {$button_label}
 
-  </a>
+    </a>
 
-</div>
+  </div>
 
-<a style="margin-left:20px" href="{$catalog_products_url}">{l s='Go to products page' mod='mcpromoflagremover'}</a>
-
-
-
+  <a style="margin-left:20px" href="{$catalog_products_url}">{l s='Go to products page' mod='mcpromoflagremover'}</a>
 
   <h4>{l s='List of the products with the label "on sale"' mod='mcpromoflagremover'}</h4>
+
   <ul class="list-group" style="margin-top:20px">
 
   {foreach from=$products_all item=product}

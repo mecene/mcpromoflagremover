@@ -1,13 +1,25 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<module>
-    <name>mcpromoflagremover</name>
-    <displayName><![CDATA[Mc Label promo destructeur]]></displayName>
-    <version><![CDATA[0.0.1]]></version>
-    <description><![CDATA[Retire les labels promo des produits et listes de produits]]></description>
-    <author><![CDATA[Clement brule]]></author>
-    <tab><![CDATA[administration]]></tab>
-	<confirmUninstall><![CDATA[Au revoir et a bientot?]]></confirmUninstall>
-    <is_configurable>1</is_configurable>
-    <need_instance>0</need_instance>
-	<limited_countries></limited_countries>
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<module>
+
+    <name>mcpromoflagremover</name>
+
+    <displayName><![CDATA[Mc Label "on sale" destructor]]></displayName>
+
+    <version><![CDATA[0.0.1]]></version>
+
+    <description><![CDATA[Remove all labels "on sale" from the products list and products page]]></description>
+
+    <author><![CDATA[Clement brule]]></author>
+
+    <tab><![CDATA[administration]]></tab>
+
+	<confirmUninstall><![CDATA[Fairwell?]]></confirmUninstall>
+
+    <is_configurable>1</is_configurable>
+
+    <need_instance>0</need_instance>
+
+	<limited_countries></limited_countries>
+
 </module>

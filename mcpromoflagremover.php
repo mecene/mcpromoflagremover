@@ -170,11 +170,11 @@ class McPromoFlagRemover extends Module
 
 
 
-		$this->displayName = $this->l('Mc Label promo destructeur');
+		$this->displayName = $this->l('Mc Label "on sale" destructor');
 
-		$this->description = $this->l('Retire les labels promo des produits et listes de produits');
+		$this->description = $this->l('Remove all labels "on sale" from the products list and products page');
 
-		$this->confirmUninstall = $this->l('Au revoir et a bientot?');
+		$this->confirmUninstall = $this->l('fairwell?');
 
 	}
 
