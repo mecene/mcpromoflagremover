@@ -37,8 +37,6 @@
 
   </div>
 
-  <a style="margin-left:20px" href="{$catalog_products_url}">{l s='Go to products page' mod='mcpromoflagremover'}</a>
-
   <h4>{l s='List of the products with the label "on sale"' mod='mcpromoflagremover'}</h4>
 
   <ul class="list-group" style="margin-top:20px">
@@ -54,6 +52,7 @@
   {else}
 
     <b>{l s='There are no products with "on sale" label' mod='mcpromoflagremover'}</b>
+    <a style="margin-left:20px" href="{$catalog_products_url}">{l s='Go to products page' mod='mcpromoflagremover'}</a>
 
 {/if}
 
